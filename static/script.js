@@ -9,7 +9,7 @@ async function submitJournal() {
 
     responseBox.innerHTML = "Analyzing...";  // Show loading message
 
-    let apiKey = "your-groq-api-key";  // Replace with your actual Groq API key
+    let apiKey = "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";  // Replace with your actual Groq API key
 
     let prompt = `
     You are Ghost from Call of Duty, giving brutally honest and tactical feedback on a soldier's personal journal.
