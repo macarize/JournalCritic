@@ -22,7 +22,7 @@ async function submitJournal() {
     `;
 
     try {
-        let response = await fetch("https://api.groq.com/v1/chat/completions", {
+        let response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
